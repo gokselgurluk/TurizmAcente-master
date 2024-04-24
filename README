@@ -1,0 +1,43 @@
+https://www.youtube.com/watch?v=nC24uTr16Zs
+
+Turizm Acente Sistemi Projesi
+Bu proje, bir turizm acentesi için geliştirilmiş bir sistemdir. Projede acente çalışanlarının otel ve oda yönetimini sağlaması, rezervasyonları takip etmesi ve müşterilere hizmet vermesi amaçlanmıştır.
+
+Proje Amaçları
+Acenta çalışanlarının otel ve oda yönetimini sağlamak.
+Rezervasyonları kaydetmek, güncellemek, silmek ve takip etmek.
+Otel ve oda bilgilerini yönetmek.
+Müşterilere uygun otel ve oda seçenekleri sunmak.
+Proje Özellikleri
+Otel yönetimi: Otel ekleme, güncelleme, silme.
+Oda yönetimi: Oda ekleme, güncelleme, silme.
+Rezervasyon yönetimi: Rezervasyon ekleme, güncelleme, silme.
+Fiyatlandırma: Oda fiyatlarını belirleme ve rezervasyonlara göre fiyat hesaplama.
+Stoğu yönetme: Oda stoklarını dönem bazında takip etme.
+Kurulum
+Projenin çalışması için aşağıdaki adımları takip edin:
+
+Veritabanı Oluşturma: MySQL veya PostgreSQL veritabanı üzerinde projeye ait tabloları oluşturun.
+Veri Doldurma: Her tabloya en az 5 veri ekleyerek örnek veriler oluşturun.
+Bağlantı Ayarları: Veritabanı bağlantı bilgilerini db.properties dosyasına tanımlayın.
+Proje Derleme: Proje dosyalarını derleyin ve çalıştırın.
+Kullanım
+Projeyi çalıştırdıktan sonra aşağıdaki işlemleri gerçekleştirebilirsiniz:
+
+Acenta çalışanı girişi yapın.
+Otelleri listeleyin, yeni otel ekleyin veya mevcut otelleri güncelleyin/silin.
+Odaları listeleyin, yeni oda ekleyin veya mevcut odaları güncelleyin/silin.
+Rezervasyonları listeleyin, yeni rezervasyon ekleyin veya mevcut rezervasyonları güncelleyin/silin.
+Fiyatları belirleyin ve rezervasyonlara göre fiyat hesaplayın.
+Stoğu yönetin ve rezervasyonlarla ilişkilendirin.
+Proje değerlendirme kriterleri ve puanlama ölçütleri için Değerlendirme Kriterleri bölümünü inceleyin.
+
+Teknolojiler
+Java
+Swing GUI
+PostgreSQL veritabanı
+
+Katkıda Bulunanlar
+Rohat Doganer
+
+Lisans

@@ -1,0 +1,73 @@
+Projede veritabanı kullanılmış ve DB bağlantı konfigürasyonu doğru bir şekilde yapılmış
+core klasörü db sınıfı
+
+Admin kullanıcı tipine, projede bahsedilen employee listeleme, ekleme, güncelleme, silme gibi işlemleri yapabilecek şekilde kodlama yapılmış mı?
+
+View >Admin View
+Acente çalışanına (employee) projede bahsedilen otel, sezon, pansiyon, otel özelliği, oda, oda özelliği listeleme, ekleme ve rezervasyon ekleme, silme gibi işlemleri yapacak şekilde kodlama yapılmış mı?
+
+view > HotelView
+
+Login işleminde kullanıcının kaydı olup olmadığı kontrol ediliyor mu, kaydı yoksa ya da hatalı giriş yapıldıysa kullanıcıya hatalı giriş mesajı veriliyor mu?
+
+view > admin view
+
+Acente personeli anlaşmalı olduğu otelleri sisteme otel adı, adres, E-posta, telefon, yıldız, tesis özellikleri bilgilerini girerek kaydedebiliyor mu?
+
+view > hotelView
+view > hotelAddView
+view > hotelUpdateView
+
+Otellerin sisteme eklenmesinde dönem yönetimi yapılmış mı
+
+view > hotelAddView > 100. satırbaslangıcı
+
+Otellerin sisteme eklenmesinde pansiyon tipi yönetimi yapılmış mı?
+
+view > RoomAdd > 132. satır
+
+Acente personeli sisteme kayıtlı otellere oda ekleyebiliyor mu? Oda eklerken oda tipi (Single, Double, Junior Suite, Suite vb.), oda özellikleri (Yatak Sayısı, Televizyon, Minibar vb.) ve stok miktarı girişi dikkate alınmış mı?
+
+view > RoomAdd
+
+Sisteme yeni eklenen odaların fiyatları, sezon, pansiyon tipi ve konaklayanların yetişkin/çocuk olma durumuna göre belirleniyor mu?
+
+view > RoomAdd >265. satır roomPriceCalcul() metodu
+
+Acente çalışanı, tarih aralığına, otel ismine, şehire göre odaları başarılı bir şekilde arayabiliyor mu? (4 puan)
+
+view > HotelView > 154. satır
+
+Arama sonucuna uygun otellerin bilgileri (adres, yıldız, otel imkanları vb) ve odaların bilgileri (giriş, çıkış tarihi, yetişkin, çocuk sayısı, yatak sayısı, varsa, mini bar, TV vb) kullanıcıya gösteriliyor mu?
+
+view > HotelView >   loadRoomTable() ve   loadRoomPropertiesTable(); metotları
+
+Misafir bilgisi, kalınacak gece sayısı ve oda fiyatına göre konaklamaya ait fiyat başarılı bir şekilde hesaplanıyor mu?
+
+view > ReservationAdd >  136.satır > btn_reser_price
+
+Acenta çalışanı müşterinin talebine uygun odayı müşteri bilgilerini girerek başarılı şekilde rezervasyon yapabiliyor mu?
+
+view > ReservationAdd >  199.satır btn_add_reservation
+
+Rezervasyon yapılan odanın stoğu azalıyor mu?(4 puan)
+
+view > ReservationAdd >  236.satır stockUpdate
+
+Acente çalışanları, sistem üzerinden yapılan rezervasyonları başarılı bir şekilde listeleye biliyor mu?
+
+view > HotelView > loadReserTable() metotu
+
+Acente çalışanları, sistem üzerinden yapılan rezervasyonları başarılı bir şekilde güncelleyebiliyor mu?
+
+view > RevervationUpdateView
+
+Acente çalışanları, sistem üzerinden yapılan rezervasyonları başarılı bir şekilde silebiliyor mu?
+
+view > HotelView > 475. satır > reserMenuList() > sil
+
+Rezervasyon silme işleminden sonra ilgili odanın stoğu artıyor mu?
+
+view > HotelView > 484. satır > reserMenuList() > sil > stockUpdate
+
+
